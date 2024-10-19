@@ -1,6 +1,8 @@
 spring:
   application:
     name: SERVER-CONFIG-FILE-WORKING-NO-PROFILE
+profiles:
+  active: prod
 server:
   port: 9100
 eureka:
